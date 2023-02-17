@@ -1,0 +1,4 @@
+# handlebar partials containing files have been ignored. not supported yet by Prettier
+# https://github.com/prettier/prettier/issues/11834
+
+src/index.hbs
