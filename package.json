@@ -1,12 +1,10 @@
 {
-  "name": "my-webpack-project",
+  "name": "static-website-boilerplate",
   "version": "1.0.0",
-  "description": "My webpack project",
-  "main": "index.js",
+  "description": "Boilerplate to build static website using HTML, Tailwind CSS or CSS and Javascript(ES6)",
   "repository": "https://github.com/ozgursagiroglu/static-website-boilerplate",
   "author": "Özgür Sağıroğlu",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "build": "webpack --mode=production --node-env=production && prettier --write \"dist/**/*.html\"",
     "build:dev": "webpack --mode=development",
